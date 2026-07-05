@@ -27,9 +27,9 @@ object AppUpdateGitHub : AppUpdate.AppUpdateInterface {
 
     private suspend fun getLatestRelease(): List<AppReleaseInfo> {
         val lastReleaseUrl = if (checkVariant.isBeta()) {
-            "https://api.github.com/repos/Hippo1096/deploy/releases/tags/beta"
+            "https://api.github.com/repos/Hippo1096/taotao-reading/releases/tags/beta"
         } else {
-            "https://api.github.com/repos/Hippo1096/deploy/releases/latest"
+            "https://api.github.com/repos/Hippo1096/taotao-reading/releases/latest"
         }
         val res = okHttpClient.newCallResponse {
             url(lastReleaseUrl)

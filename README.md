@@ -11,7 +11,7 @@
 
 - 内置 47 个精选主流小说书源（AI 全链路精校验）
 - 手绘风格启动图标
-- 自动更新指向 `Hippo1096/deploy`
+- 自动更新指向 `Hippo1096/taotao-reading` 的 GitHub Releases
 
 ## 构建
 
