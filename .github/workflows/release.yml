@@ -66,19 +66,22 @@ jobs:
           KSTORE_P2: ${{ secrets.RELEASE_KEYSTORE_PART2 }}
         run: |
           set -euo pipefail
+          mkdir -p app/signing
           if [ -n "$KSTORE_P1" ] && [ -n "$KSTORE_P2" ]; then
-            mkdir -p app/signing
             echo "${KSTORE_P1}${KSTORE_P2}" | base64 -d > app/signing/release.p12
-            {
-              echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.p12"
-              echo "RELEASE_KEY_ALIAS=taotao"
-              echo "RELEASE_STORE_PASSWORD=taotao123"
-              echo "RELEASE_KEY_PASSWORD=taotao123"
-            } > local.properties
-            echo "Release signing configured (split-secret PKCS12, $(wc -c < app/signing/release.p12) bytes)"
+            echo "Release signing configured from GitHub Secrets (split-secret PKCS12, $(wc -c < app/signing/release.p12) bytes)"
           else
-            echo "No signing secrets found, building unsigned or debug signed APK"
+            echo "No signing secrets found in GitHub Secrets, generating temporary release keystore using keytool..."
+            keytool -genkeypair -v -keystore app/signing/release.p12 -storetype PKCS12 -keyalg RSA -keysize 2048 -validity 10000 -alias taotao -storepass taotao123 -keypass taotao123 -dname "CN=TaoTao, OU=Reading, O=Legado, L=Beijing, S=Beijing, C=CN"
+            echo "Temporary release keystore generated successfully!"
           fi
+          {
+            echo ""
+            echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.p12"
+            echo "RELEASE_KEY_ALIAS=taotao"
+            echo "RELEASE_STORE_PASSWORD=taotao123"
+            echo "RELEASE_KEY_PASSWORD=taotao123"
+          } >> gradle.properties
 
       - name: Build app release APK
         run: |
