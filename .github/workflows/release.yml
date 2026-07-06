@@ -68,10 +68,10 @@ jobs:
             -keypass taotao \
             -dname "CN=Peach Reader, OU=Hermes, O=Hippo, L=Shaoxing, ST=Zhejiang, C=CN"
           {
-            echo "storeFile=$GITHUB_WORKSPACE/app/signing/release.jks"
-            echo "keyAlias=taotao"
-            echo "storePassword=taotao"
-            echo "keyPassword=taotao"
+            echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.jks"
+            echo "RELEASE_KEY_ALIAS=taotao"
+            echo "RELEASE_STORE_PASSWORD=taotao"
+            echo "RELEASE_KEY_PASSWORD=taotao"
           } > local.properties
           echo "Temporary release signing configured"
 
