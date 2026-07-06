@@ -22,4 +22,5 @@ package-lock.json
 app/signing/
 *.p12
 *.jks
-*.keystore
+*.keystore*.jks
+signing/
