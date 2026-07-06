@@ -18,3 +18,8 @@ package-lock.json
 .kotlin/
 .cxx
 .vscode
+# 签名文件（通过 GitHub Secrets 注入，不提交）
+app/signing/
+*.p12
+*.jks
+*.keystore

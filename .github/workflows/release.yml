@@ -57,23 +57,32 @@ jobs:
           echo "short_sha=$(git rev-parse --short=7 HEAD)" >> $GITHUB_OUTPUT
 
       - name: Configure release signing
+        env:
+          KEYSTORE_B64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
         run: |
           set -euo pipefail
           mkdir -p app/signing
-          keytool -genkeypair -v \
-            -keystore app/signing/release.jks \
-            -alias taotao \
-            -keyalg RSA -keysize 2048 -validity 10000 \
-            -storepass taotao \
-            -keypass taotao \
-            -dname "CN=Peach Reader, OU=Hermes, O=Hippo, L=Shaoxing, ST=Zhejiang, C=CN"
+          if [ -n "${KEYSTORE_B64:-}" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > app/signing/release.p12
+            echo "Release keystore decoded from secrets"
+          else
+            # 回退：没有配置 Secret 时用临时自签名（安装会提示未知来源）
+            echo "WARNING: RELEASE_KEYSTORE_BASE64 not set, using temporary self-signed cert"
+            keytool -genkeypair -v \
+              -keystore app/signing/release.jks \
+              -alias taotao \
+              -keyalg RSA -keysize 2048 -validity 10000 \
+              -storepass taotao \
+              -keypass taotao \
+              -dname "CN=Peach Reader, OU=Hermes, O=Hippo, L=Shaoxing, ST=Zhejiang, C=CN"
+          fi
           {
-            echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.jks"
+            echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.p12"
             echo "RELEASE_KEY_ALIAS=taotao"
-            echo "RELEASE_STORE_PASSWORD=taotao"
-            echo "RELEASE_KEY_PASSWORD=taotao"
+            echo "RELEASE_STORE_PASSWORD=taotao123"
+            echo "RELEASE_KEY_PASSWORD=taotao123"
           } > local.properties
-          echo "Temporary release signing configured"
+          echo "Release signing configured"
 
       - name: Build app release APK
         run: |
