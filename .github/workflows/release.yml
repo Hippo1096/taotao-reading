@@ -58,22 +58,19 @@ jobs:
 
       - name: Configure release signing
         env:
-          KEYSTORE_B64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          KSTORE_P1: ${{ secrets.RELEASE_KEYSTORE_PART1 }}
+          KSTORE_P2: ${{ secrets.RELEASE_KEYSTORE_PART2 }}
         run: |
           set -euo pipefail
           mkdir -p app/signing
-          if [ -z "${KEYSTORE_B64:-}" ]; then
-            echo "ERROR: RELEASE_KEYSTORE_BASE64 is not set. 请在 GitHub Secrets 中配置固定签名文件。"
-            exit 1
-          fi
-          echo "$KEYSTORE_B64" | base64 -d > app/signing/release.p12
+          echo "${KSTORE_P1}${KSTORE_P2}" | base64 -d > app/signing/release.p12
           {
             echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.p12"
             echo "RELEASE_KEY_ALIAS=taotao"
             echo "RELEASE_STORE_PASSWORD=taotao123"
             echo "RELEASE_KEY_PASSWORD=taotao123"
           } > local.properties
-          echo "Release signing configured from fixed keystore"
+          echo "Release signing configured (split-secret PKCS12, $(wc -c < app/signing/release.p12) bytes)"
 
       - name: Build app release APK
         run: |
