@@ -1,0 +1,27 @@
+name: Isolate timeout
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "test"
+        required: false
+        type: string
+permissions:
+  contents: write
+env:
+  TZ: Asia/Shanghai
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+      - uses: android-actions/setup-android@v3
+      - run: echo "timeout works"
