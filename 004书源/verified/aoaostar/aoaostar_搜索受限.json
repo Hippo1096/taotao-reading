@@ -1,0 +1,138 @@
+[
+  {
+    "bookSourceComment": "纯发现源",
+    "bookSourceGroup": "aoaostar|搜索链接规则为空,🗂 聚合",
+    "bookSourceName": "📚 VISTA看天下🔖",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://open3.vistastory.com",
+    "concurrentRate": "",
+    "customOrder": 69,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "看天下::https://open3.vistastory.com/v3/api/magazine/all_mag_page?pageNo={{page-1}}&pageSize=18&magType=1\n号外::https://open3.vistastory.com/v3/api/magazine/all_mag_page?pageNo={{page-1}}&pageSize=18&magType=2\nVbook::https://open3.vistastory.com/v3/api/magazine/all_mag_page?pageNo={{page-1}}&pageSize=18&magType=3",
+    "lastUpdateTime": 1682575866728,
+    "respondTime": 761,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<img src=\"{{$.article.coverUrl}}\">\n{{$.article..content}}",
+      "imageStyle": "",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "<js>\"VISTA看天下\"</js>",
+      "bookList": "$.magList",
+      "bookUrl": "https://open3.vistastory.com/v3/api/magazine/mag_column_detail?magId={{$.id}}",
+      "coverUrl": "$.coverUrl",
+      "intro": "$.articleTitle",
+      "kind": "$.magStyle",
+      "lastChapter": "$.subtitle",
+      "name": "$.title",
+      "wordCount": "$.releaseDateFormat"
+    },
+    "ruleToc": {
+      "chapterList": "$..articles.*",
+      "chapterName": "$.title",
+      "chapterUrl": "https://open3.vistastory.com/v3/api/article/article_detail2?articleId={{$.id}}&isShowNext=0"
+    },
+    "searchUrl": "",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "aoaostar|搜索链接规则为空,天龙",
+    "bookSourceName": "纯肉网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://mm28.cc",
+    "customOrder": 209,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1667490570315,
+    "respondTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\"error:Unable to resolve host \"m.xs8.cn\": No address associated with hostname\n\"",
+    "bookSourceGroup": "aoaostar|搜索链接规则为空,天龙",
+    "bookSourceName": "言情小说吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xs8.cn",
+    "bookUrlPattern": "",
+    "customOrder": 357,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1690771716639,
+    "loginUrl": "{\n  \"url\": \"\"\n}",
+    "respondTime": 0,
+    "ruleBookInfo": {
+      "author": "class.book-rand-a@a@text||class.book-info@h1@a@text##\\s+著",
+      "coverUrl": "class.book-cover@src||id.bookImg@img@src",
+      "intro": "id.bookSummary@content@text||class.intro@text",
+      "name": "class.book-cell.0@h2@text||class.book-info@h1@em@text",
+      "tocUrl": "class.book-meta book-status@href"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@p@text"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "class.book-author@textNodes",
+      "bookList": "class.book-li",
+      "bookUrl": "class.book-layout@href@js:result.replace(\"/book\",\"https://www.xs8.cn/book\")",
+      "coverUrl": "class.book-cover@src",
+      "name": "h4@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-li jsChapter||class.volume@ul@li",
+      "chapterName": "a@span@text||a@text",
+      "chapterUrl": "a@href@js:result.replace(\"/book\",\"https://www.xs8.cn/chapter\")"
+    },
+    "searchUrl": "",
+    "weight": 0
+  }
+]

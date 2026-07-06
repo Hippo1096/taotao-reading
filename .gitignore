@@ -24,3 +24,6 @@ app/signing/
 *.jks
 *.keystore*.jks
 signing/
+
+# 工作区临时中间产物（不进 Git）
+_work/

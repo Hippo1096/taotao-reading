@@ -1,0 +1,708 @@
+{
+  "timestamp": "2026-07-05 21:12:59",
+  "keyword": "诡秘之主",
+  "total": 105,
+  "passed": 11,
+  "partial": 2,
+  "failed": 92,
+  "passed_sources": [
+    {
+      "name": "海马书屋",
+      "grade": "?",
+      "base_url": "https://www.seahobook.com",
+      "search_samples": [
+        "点击搜索",
+        "诡秘之主",
+        "爱潜水的乌贼",
+        "‌P‌O‎‌‍1‎‎8‍‎‌",
+        "被觊觎的菟丝花死后（NPH）"
+      ],
+      "chapter_samples": [
+        "电脑版",
+        "海马书屋",
+        "分类",
+        "全本",
+        "足迹"
+      ],
+      "content_sample": "[杂谈]\n诡秘之主\n\n爱潜水的乌贼\n\n2026-07-05\n\n\n[情感]\n我和乡镇综合办公室那些基层女干部的情事\n\n故里云烟\n\n2026-07-05\n\n\n[杂谈]\n特事局的神秘顾问\n\n影帝\n\n2026-07-05\n\n\n[杂谈]\n魔瞳\n\n预言家\n\n2026-07-05\n\n\n[杂谈]\n香艳又疯狂的征服之路\n\n狂芽\n\n2026-07-05\n\n\n[杂谈]\n港岛警界传奇\n\n港城打工人\n\n2026-07-05"
+    },
+    {
+      "name": "🔰 深夜看书/蓝海",
+      "grade": "?",
+      "base_url": "https://www.longtimebook.com",
+      "search_samples": [
+        "点击搜索",
+        "‍P‌O‎1‌‎8‍‌",
+        "被觊觎的菟丝花死后（NPH）",
+        "诡秘之主",
+        "爱潜水的乌贼"
+      ],
+      "chapter_samples": [
+        "电脑版",
+        "新龙小说网",
+        "分类",
+        "全本",
+        "足迹"
+      ],
+      "content_sample": "[‌P‎‍‎O‌‎‍1‍‌8‌]\n俏玉 NPH\n\n香水百合\n\n2026-07-05\n\n\n[‍P‎‌O‍1‌‎‎8‌]\n纯欲学妹的放荡失控\n\n壹凌\n\n2026-07-05\n\n\n[‌‌‍P‎‌‌O‎‍‎1‍‍8‍]\n有伞不打雨夜花\n\n小雨点\n\n2026-07-05\n\n\n[‍‎‎P‌‎O‎1‍‎8‌‎]\n人外你崛起吧\n\n喜欢笨蛋‎‌美‌‍人‎\n\n2026-07-05\n\n\n[‍‎P‍O‌‍1‍‌‎8‎‎]"
+    },
+    {
+      "name": "克苏鲁公社",
+      "grade": "?",
+      "base_url": "https://www.cthulhuclub.com",
+      "search_samples": [
+        "神话年表",
+        "旧日支配者 & 外神",
+        "神话生物 & 可憎之物",
+        "神秘典籍 & 禁忌知识",
+        "世界地理"
+      ],
+      "chapter_samples": [
+        "神话年表",
+        "旧日支配者 & 外神",
+        "神话生物 & 可憎之物",
+        "神秘典籍 & 禁忌知识",
+        "世界地理"
+      ],
+      "content_sample": "Cthulhu Craft\n\n克苏鲁公社\n\n那永恒长眠者并未消逝，在奇异的万古中死亡本身也会死去。\n\nThat is not dead which can eternal lie, and with strange aeons even death may die…\n\n\n\n\n\n\n\n\n\nCthulhu Craft\n\n克苏鲁公社\n\n那永恒长眠者并未消逝，\n在奇异的万古中死亡本身也会死去。\n\nThat "
+    },
+    {
+      "name": "盐选文库（优+）",
+      "grade": "?",
+      "base_url": "https://www.yanxuanwk.com#",
+      "search_samples": [
+        "盐选文库",
+        "织乎盐选",
+        "天涯神贴",
+        "精校小说",
+        "省钱砖家"
+      ],
+      "chapter_samples": [
+        "盐选文库",
+        "主页",
+        "分类",
+        "织乎盐选",
+        "天涯神贴"
+      ],
+      "content_sample": "如何以「仙君从凡间带回了一个子」为开头写个故事_\n 盐选文库 知乎盐选2025年2月18日\n\n\n超甜HE，已完结，正文2.3万字，请放心食用。 仙君从凡间带回了一个女子。 众仙见此纷纷表示震惊，嘴巴张得都能塞下一座泰山。 就连天帝也面露讶异，差点没压住上扬的嘴角，崩了严厉人 设。 你问我为什么知道？ 谢邀，人在现场，我就是那个女子。 要问我为什么会被称为万年冰山孤傲不群的黎漠仙君带回来？ 嘿嘿，说"
+    },
+    {
+      "name": "爱下电子（优）",
+      "grade": "?",
+      "base_url": "https://ixdzs8.com",
+      "search_samples": [
+        "爱下电子书",
+        "我在诡秘之主打破次元壁",
+        "神之鸽者",
+        "开新书了！已提签可投资",
+        "诡秘之主：吃"
+      ],
+      "chapter_samples": [
+        "爱下电子书",
+        "分类",
+        "完结",
+        "丑雌一胎七崽？兽夫们跪求复合",
+        "金顶顶"
+      ],
+      "content_sample": "古言推荐\n\n全家偷听我心声杀疯了，我负责吃奶夏声声224.52万字连载中《全家偷听我心声我负责吃奶》短剧原著\n【全家读心术+炮灰+团宠+大佬穿书+扮猪吃虎+爽文】\n陆朝朝穿书了。\n穿成出生被溺毙，还被女主顶替了身份的炮灰。女主大义灭亲，举报养母和外祖父通敌卖国，害的全家灭门。\n女主接回亲娘，和渣爹金蝉脱壳，和和美美过一生。\n只陆朝朝全家，皆为垫脚石。\n陆朝朝看着被PUA多年的娘亲【娘啊，你心爱的相"
+    },
+    {
+      "name": "爱下电子（繁）",
+      "grade": "?",
+      "base_url": "https://ixdzs.tw/",
+      "search_samples": [
+        "愛下電子書",
+        "禁遊排行",
+        "詭秘之主搜索結果",
+        "次神1：詭秘之主，新滬怪談",
+        "兔Bug666"
+      ],
+      "chapter_samples": [
+        "愛下電子書",
+        "首頁",
+        "分類",
+        "完結",
+        "丑雌一胎七崽？獸夫們跪求複合"
+      ],
+      "content_sample": "古言推薦\n\n全家偷聽我心聲殺瘋了，我負責吃奶夏聲聲224.52萬字連載中《全家偷聽我心聲我負責吃奶》短劇原著\n【全家讀心術+炮灰+團寵+大佬穿書+扮豬吃虎+爽文】\n陸朝朝穿書了。\n穿成出生被溺斃，還被女主頂替了身份的炮灰。女主大義滅親，舉報養母和外祖父通敵賣國，害的全家滅門。\n女主接回親娘，和渣爹金蟬脫殼，和和美美過一生。\n只陸朝朝全家，皆為墊腳石。\n陸朝朝看著被PUA多年的娘親【娘啊，你心愛的相"
+    },
+    {
+      "name": "学外漫画",
+      "grade": "?",
+      "base_url": "https://www.xwmanhua.com",
+      "search_samples": [
+        "全部漫画",
+        "最新上架",
+        "最近更新",
+        "漫画搜索",
+        "观看历史"
+      ],
+      "chapter_samples": [
+        "全部漫画",
+        "最近更新",
+        "漫画搜索",
+        "观看历史",
+        "侦探推理"
+      ],
+      "content_sample": "侦探推理\n其它\n冒险热血\n耽美爱情\n玄幻科幻\n生活搞笑\n武侠格斗\n恐怖灵异\n\n\n\n\n\n\n\n\n最新上架\n\n\n\n\n\n\n\n（剧情预告）\n\n\n\n\n\n\n末世：彩虹城\n\n作者：\n已注销\n\n\n\n\n\n\n04 浮于表面的友谊？\n\n\n\n\n\n\n拥抱你\n\n作者：\n凉桯\n\n\n\n\n\n\n梦回现实2\n\n\n\n\n\n\n出渊\n\n作者：\n2good2\n\n\n\n\n\n\n短篇\n\n\n\n\n\n\n攻陷地狱\n\n作者：\n胖虎的直肠很宽\n\n\n\n\n\n\n老弟你们是"
+    },
+    {
+      "name": "完本小说网",
+      "grade": "?",
+      "base_url": "https://www.finalbooks.work",
+      "search_samples": [
+        "点击搜索",
+        "诡秘之主",
+        "爱潜水的乌贼",
+        "【诡秘之主NP】深黯",
+        "[诡秘之主]故园无此声"
+      ],
+      "chapter_samples": [
+        "电脑版",
+        "完本小说网",
+        "分类",
+        "全本",
+        "足迹"
+      ],
+      "content_sample": "[言情]\n侯门继妻\n\npeanut\n\n2026-07-01\n\n\n[‌‍​同­­‌人­‎]\n无限之爱萌\n\n国际精神\n\n2026-07-01\n\n\n[网络]\n雄霸天下\n\n骷髅精灵\n\n2026-07-01\n\n\n[玄幻]\n自由的巫妖\n\n海伦因\n\n2026-07-01\n\n\n[言情]\n清穿福运太子妃\n\n恋竹小妖\n\n2026-07-01\n\n\n[网游]\n破碎时空\n\n槐南\n\n2026-07-01\n\n\n[其他类型]\n《"
+    },
+    {
+      "name": "😍轻写真",
+      "grade": "?",
+      "base_url": "http://www.635k.com/##@Mengteen",
+      "search_samples": [
+        "异思趣向",
+        "Ligui丽柜",
+        "克拉女神",
+        "绅士摄影",
+        "SSA丝社"
+      ],
+      "chapter_samples": [
+        "异思趣向",
+        "Ligui丽柜",
+        "克拉女神",
+        "绅士摄影",
+        "SSA丝社"
+      ],
+      "content_sample": "幻灯片1标题 幻灯片2标题\n[异思趣向IESS] 模特 文欣 《梳状台前的文欣》[思话SiHua] SH156 馨娅 女神的黑丝包裙SHENSHI绅士 - SS231 一墨[丝慕] SM097 双双 天天一元 《暗调之夜》[丝意SIEE] No.008 鱼鱼 校园合集（上）[LD零度] NO.108 贝妮 \n\n\n  \n\n[思话SiHua] SH156 馨娅 女神的黑丝包裙\n 丝袜套图\n2026-0"
+    },
+    {
+      "name": "🎼蜻蜓FM🎼",
+      "grade": "?",
+      "base_url": "https://m.qingting.fm/",
+      "search_samples": [
+        "打开APP",
+        "苍穹之主不求成仙成神，只求掌控苍穹！1161181期少华",
+        "诡秘我是爷爷捡回来的鬼婴，渐渐地我长大了发现事情并没有那么简单，我独自踏上了寻找身世秘密的道路……131期清湖文化",
+        "诡秘之劫为了寻找爷爷丢失的杀生刃，也为了寻回当年他青梅竹马的女孩，他下了山踏上了漫漫路途……伊人在何方，杀生刃又在谁的手里？一切的一切，等着他去慢慢的寻找……516期醉蝶文化",
+        "诡秘古棺千年古棺重现，整个城市诡异起来22114期大推科技"
+      ],
+      "chapter_samples": [
+        "打开APP",
+        "广播电台",
+        "小说",
+        "儿童故事",
+        "文化"
+      ],
+      "content_sample": "打开APP广播电台小说儿童故事文化情感故事教育历史脱口秀评书社区展开排行榜更多16717隋炀帝杨广不是一个简单的“昏君”标签可以概括的人。他年轻时参与灭陈，建立军功；夺嫡成功后登上帝位，又以惊人的速度推动东都洛阳、大运河、科举、巡幸、西域经营和高句丽战争。他有宏大的帝国蓝图，也有极强的执行力。但问题恰恰在这里：他的能力越强，帝国被推动得越快；他的蓝图越大，百姓、财政、军队和官僚系统承受的压力越重。"
+    },
+    {
+      "name": "（favcomic）喜漫漫画",
+      "grade": "?",
+      "base_url": "https://www.favcomic.net",
+      "search_samples": [
+        "诡秘的姐妹",
+        "秘之夜韵",
+        "后宫的隐秘之事",
+        "探寻神秘之旅：喀拉喀瓦的诞生",
+        "图书馆之主"
+      ],
+      "chapter_samples": [
+        "少男漫画",
+        "少女漫画",
+        "性感图库",
+        "成人漫画",
+        "喜漫APP国内用户选择大陆线路，无需VPN！"
+      ],
+      "content_sample": "喜漫用户使用协议\n        \n\n            《喜漫用户使用协议》（以下简称“本协议”）是您与喜漫之间关于使用喜漫各项服务的法律协议。\n本协议中与您的权益（可能）存在重大关系的条款（包括免除喜漫责任的条款、限制您权利的条款、争议解决条款及司法管辖条款等），喜漫已采用字体加粗的方式来特别提醒您，请您留意重点查阅。请您确保您在使用喜漫服务前已仔细阅读、充分理解并毫无保留地接受本协议所有"
+    }
+  ],
+  "partial_sources": [
+    {
+      "name": "📚 双语小说",
+      "verdict": "partial",
+      "error": "",
+      "search_count": 23,
+      "chapter_count": 65
+    },
+    {
+      "name": "🔞三疊書閣(三疊紀小說)-繁",
+      "verdict": "partial",
+      "error": "",
+      "search_count": 20,
+      "chapter_count": 24
+    }
+  ],
+  "failed_sources": [
+    {
+      "name": "番茄小说2",
+      "error": "搜索HTTP -2",
+      "search_http": -2
+    },
+    {
+      "name": "熊猫看书",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "起点中文",
+      "error": "搜索HTTP 202",
+      "search_http": 202
+    },
+    {
+      "name": "酷我小说",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "🏖️云兔小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "和图书",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "酷匠网",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "💰 17K小说网",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "🪵 全本同人小说网",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "值得阅读",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "文徒小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "下书网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "小说旗2",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "🎉八月文学",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "🎉晚秋中文网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🔖UU小说网②",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "搜狗搜书",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "豆腐阅读",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "88小说网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎉 疯读小说",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "爱看书吧",
+      "error": "搜索HTTP 444",
+      "search_http": 444
+    },
+    {
+      "name": "泡书吧",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "笔尚小说",
+      "error": "搜索未命中 (count=1)",
+      "search_http": 200
+    },
+    {
+      "name": "31小说网~f",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "漫小肆20251217",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "笔趣全家桶",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🔖三一小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "耽美小说网",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "久久小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "笔阅读器",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "御书屋",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "爱发电（导入前请备份好自己的发现规则，登录直接点登录，填账号密码，不要改登录规则里的东西，阅读升级最新版，网站只能搜作者）",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "伪版主",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "🔰 7wav",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "🍅大灰狼漫画5.0(独立版)",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "新御宅屋②",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "河图小说网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "🎃欲望社🎃",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "🔰 鲤鱼乡",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "御宅屋⑫",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "涩涩俱乐部",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "天美小说🎃",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🌟 铁血读书",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🍉 萝莉文学",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "肉文屋⑥",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "勤书网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "中文书城（优+）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "🎃下书网🎃",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "国学書库（优+）",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🚬 靠谱小说",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "茶马小说（优++）",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "蚂蚁阅读（优）",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "大美书网（优）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "民间故事（优+）",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "全本同人（优）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "八一中文（优）",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "零零小说（优）",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "酷匠网吧（优+）",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "🔰 7wav",
+      "error": "搜索未命中 (count=1)",
+      "search_http": 200
+    },
+    {
+      "name": "古龙武侠（优+）",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "天天书吧（优+）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "海棠书屋",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "爱爱中文（优）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "💰 晋江",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "果露小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "83中文S",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "闲看🎃",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "❤️笔趣阁新站@遇知",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "爱下电子书",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "饿狼小说🎃",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "落霞小说🎃",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "蚂蚁阅读🎃#3",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "💰 若初文学",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "三五中文",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "百度知道（优）",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "书耽小说（优）",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "磨铁中文",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "企鹅阅读",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "酷我音乐（优）",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "36小说网",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "来读读小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "无双小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "趣 APP",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "腐书网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🙈腐文屋",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "👔 肉文屋⑦",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "文桑小说（优）",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "肉书屋🎃",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    },
+    {
+      "name": "蚂蚁阅读🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "乐文阁网（优）",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "花糖小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎃言情小说吧🎃#4",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    }
+  ]
+}

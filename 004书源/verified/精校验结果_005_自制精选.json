@@ -1,0 +1,366 @@
+{
+  "timestamp": "2026-07-05 21:12:53",
+  "keyword": "诡秘之主",
+  "total": 61,
+  "passed": 3,
+  "partial": 1,
+  "failed": 57,
+  "passed_sources": [
+    {
+      "name": "书耽🎃",
+      "grade": "?",
+      "base_url": "https://www.shubl.com#🎃",
+      "search_samples": [
+        "下载客户端",
+        "作者平台",
+        "充值中心",
+        "作者福利",
+        "免责声明"
+      ],
+      "chapter_samples": [
+        "我的书架",
+        "作者平台",
+        "末世：阿米每天只想填饱肚子",
+        "卷王影帝拒绝当白莲炮灰",
+        "【快穿】黑心绿茶被占有后"
+      ],
+      "content_sample": "分类\n\n\n\n\n\n排行\n\n\n\n\n\n完本\n\n\n\n\n\nVIP专区\n\n\n\n\n主编力荐\n\n\n\n\n\n\n\n末世：阿米每天只想填饱肚子\n\n\n\n\n\n\n\n卷王影帝拒绝当白莲炮灰\n\n\n\n\n\n\n\n【快穿】黑心绿茶被占有后\n\n\n\n\n\n\n本周必读\n\n\n\n\n\n\n\n江少爷靠美貌拿下高冷建筑师\n\n\n\n\n\n\n\n穿越到蛮荒之后\n\n\n\n\n\n\n\n归渡无期\n\n\n\n\n\n\n\n快穿:炮灰男配自救指南\n\n\n\n\n\n\n人气佳作\n\n\n\n\n\n\n\n\n将军夫夫"
+    },
+    {
+      "name": "话本小说",
+      "grade": "?",
+      "base_url": "https://so.ihuaben.com/search?keyword=我是",
+      "search_samples": [
+        "[搜索]",
+        "[菜单]",
+        "角色广场",
+        "写作福利",
+        "写作后台"
+      ],
+      "chapter_samples": [
+        "双喜磕死",
+        "鬼灭：成为炭子后全员ALL炭",
+        "星汉灿烂：娇缠",
+        "综影视：不知道啊！弹幕让她狠狠亲就好了",
+        "莲花楼：砸锅卖铁养莲花"
+      ],
+      "content_sample": "女生爱看！=_=✧\n\n   综影视：沉迷造反无法自拔   三千世界，轮回搞事情！  \n   综后宫之如何成为帝王的白月光   糟糕，每个帝王都把我当白月光！  \n   KPL之竞圈渣男   天才打野加上渣男音，谁能拒绝他  \n   TNT：我死后的三十天   究极反转的追妻火葬场  \n   水默：观影体   当无默世界观影有默的世界  \n   （综影视）洪荒大佬的穿越日常   在滚滚红尘中修得大道"
+    },
+    {
+      "name": "落霞小说🎃#3",
+      "grade": "?",
+      "base_url": "https://luoxiadushu.com#🎃",
+      "search_samples": [
+        "落霞读书",
+        "世界名著",
+        "古典文学",
+        "作家目录",
+        "世界名著古典文学"
+      ],
+      "chapter_samples": [
+        "落霞读书",
+        "世界名著",
+        "古典文学",
+        "现代",
+        "当代"
+      ],
+      "content_sample": "小提示：\n\n如何更好地使用我们的网站？（2015.6）\n如侵犯了您的权益，请来函联系删除（2022.8）\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n编辑推荐\n\n\n\n\n\n\n艰难的制造\n当代/阿耐\n\n\n\n\n巴黎圣母院\n世界名著/[法]雨果\n\n\n\n\n基督山伯爵\n外国文学/大仲马\n\n\n\n\n海底两万里\n外国文学/[法]儒勒·凡尔纳\n\n\n\n\n神秘岛\n科幻经典/儒勒·凡尔纳\n\n\n\n\n纳尼亚传奇\n魔幻小"
+    }
+  ],
+  "partial_sources": [
+    {
+      "name": "书书小说",
+      "verdict": "partial",
+      "error": "",
+      "search_count": 10,
+      "chapter_count": 65
+    }
+  ],
+  "failed_sources": [
+    {
+      "name": "爱优漫🎃",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "灯读文学🎃",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "SF轻小说🎃#3",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "长佩文学 m.gongzicp.com",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "纵横中文网",
+      "error": "搜索HTTP 500",
+      "search_http": 500
+    },
+    {
+      "name": "飘然文学（优）",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "笔仙阁子",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "个性说网🎃",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "安之原创🎃",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "必去楼🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "逐浪小说🎃",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "水电子书（优）",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "笔趣阁🎃#24",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "PO18文学🎃#2",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "20小说网🎃",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "🚬 BL书阁",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "天禧小说",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "20小说网🎃#2",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "4020电子书🎃#4",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "武道文学🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "全本小说🎃#4",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "悦读小说🎃",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "三八小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "书城网包",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "言情小说🎃",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "海棠文学🎃",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "久久小说（下载）",
+      "error": "搜索未命中 (count=2)",
+      "search_http": 200
+    },
+    {
+      "name": "轩宇阅读",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "笔尚小说",
+      "error": "搜索未命中 (count=1)",
+      "search_http": 200
+    },
+    {
+      "name": "520小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "妙书斋子🎃",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "鸟书网吧",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "漫客栈吧",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "八零电子🎃",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "零点小说",
+      "error": "搜索HTTP -2",
+      "search_http": -2
+    },
+    {
+      "name": "🍺 爪机小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "🎉 爱看书八",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "😈 神漫画网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "看点小说（登录）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "创维小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "👔 新御宅屋",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "知音漫客",
+      "error": "搜索未命中 (count=2)",
+      "search_http": 200
+    },
+    {
+      "name": "免费小说（下载）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "九五书包🎃#3",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "蚂蚁阅读🎃#3",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "永恒小说网🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "唐三中文🎃#2",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "爱下🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "笔趣阁🎃#23",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "玄幻阁🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "云中书库🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "言情小说吧",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    },
+    {
+      "name": "言情港网🎃",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    },
+    {
+      "name": "读万卷书",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "笔趣阁🎃#64",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "三九小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "笔下文学④🥉",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    }
+  ]
+}

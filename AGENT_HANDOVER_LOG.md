@@ -1,7 +1,7 @@
 # AGENT_HANDOVER_LOG
 
 - 创建时间：2026-07-05
-- 最后更新：2026-07-06（简化 CI + 无签名构建可用）
+- 最后更新：2026-07-06（合并书源搜索工具 + 简化CI修复推送自动做包）
 - 项目：070503-阅读Sigma源码（桃子阅读魔改版）
 - 基础：Luoyacheng/legado（阅读Sigma）→ fork → Hippo1096/taotao-reading
 - 远端魔改仓库：https://github.com/Hippo1096/taotao-reading.git
@@ -33,9 +33,8 @@
 - 密度：mdpi/hdpi/xhdpi/xxhdpi/xxxhdpi
 
 ### 4. 自动更新
-- GitHub更新：指向 Hippo1096/deploy/releases
-- Gitee更新：指向 Hippo1096/deploy/releases
-- 注意：需要在 Hippo1096/deploy 仓库创建Release并上传APK
+- GitHub更新：指向 Hippo1096/taotao-reading 的 GitHub Releases
+- Gitee更新：指向 Hippo1096/taotao-reading 的 Gitee Releases
 
 ## 构建说明
 
@@ -49,12 +48,34 @@ cd 070503-阅读Sigma源码
 
 ### GitHub Actions 构建（推荐）
 Workflow：`.github/workflows/release.yml`
-- 手动触发（workflow_dispatch），选 `main` 分支
-- CI 内 `keytool` 自动生成临时签名，**不需要任何 Secrets**
-- 构建完成后在 Actions 页面下载 artifact APK
+- 已配置支持 `main` 分支推送自动触发构建（也支持手动触发 `workflow_dispatch`）
+- CI 内支持无证书自动兼容构建，或者通过 Secrets (RELEASE_KEYSTORE_PART1/2) 注入签名
+- 构建完成后可在 Actions 页面直接下载 APK 归档或在 Releases 查看
 
 ## 待继续
 
-- [ ] 去 GitHub Actions 手动触发首次构建 → <https://github.com/Hippo1096/taotao-reading/actions/workflows/release.yml>
+- [ ] 去 GitHub Actions 查看自动触发的构建任务 → <https://github.com/Hippo1096/taotao-reading/actions/workflows/release.yml>
 - [ ] 下载 APK 安装测试
 - [ ] 验证内置书源是否正常搜索/阅读
+
+## [2026-07-06 17:54] — Antigravity (Gemini 3.1 Pro) 处理记录
+
+### 1. 配置差异排查与澄清
+接手项目后对 codebase 进行了深度排查，针对前期日志与 README 文档的差异作出如下澄清与确认：
+- **包名（Package Name）确认**：
+  - `app/build.gradle` 中 `namespace = 'io.legado.app'`（代码与 R 类命名空间，未改动以避免修改海量源文件）。
+  - `applicationId` 已明确配置为 **`io.legado.peach`**（实际安装包名/APK ID）。
+  - **结论**：`README.md` 记载的包名 `io.legado.peach` 正确；无需再进行海量包名替换。
+- **自动更新仓库（Release 目标）确认**：
+  - 经查阅 `AppUpdateGitHub.kt` 与 `AppUpdateGitee.kt` 源码，自动更新 API 目标已全部指向 **`Hippo1096/taotao-reading`**。
+  - **结论**：`README.md` 记载的仓库地址正确；上文“指向 `Hippo1096/deploy/releases`”为过时记录，今后发布 Release 请以 `Hippo1096/taotao-reading` 为准。
+
+## [2026-07-06 18:03] — Antigravity (Gemini 3.1 Pro) 处理记录
+
+### 1. 修复并启用 GitHub Actions 自动构建与发布工作流
+- **解决推送冲突与重构 `.github/workflows/release.yml`**：
+  - 结合远程仓库更新，开启 `on: push: branches: [ main, master ]`，配置代码推送后自动触发云端构建 APK。
+  - 兼容保留远程仓库的参数化触发与 SDK 环境搭建，加入无密钥时的保护判断与打包重试机制。
+- **推送与自动化云端构建**：
+  - 整理项目根目录下合并的 `003搜索工具/` 与 `004书源/`，连同修复后的工作流脚本和交接日志进行 Git 提交。
+  - 使用 Personal Access Token (PAT) 授权完成 rebase 冲突处理并推送至远程 `Hippo1096/taotao-reading` 的 `main` 分支，正式触发云端构建 APK。

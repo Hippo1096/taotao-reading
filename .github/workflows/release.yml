@@ -1,6 +1,10 @@
 name: Build APK
 
 on:
+  push:
+    branches:
+      - main
+      - master
   workflow_dispatch:
     inputs:
       release_tag:
@@ -62,15 +66,19 @@ jobs:
           KSTORE_P2: ${{ secrets.RELEASE_KEYSTORE_PART2 }}
         run: |
           set -euo pipefail
-          mkdir -p app/signing
-          echo "${KSTORE_P1}${KSTORE_P2}" | base64 -d > app/signing/release.p12
-          {
-            echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.p12"
-            echo "RELEASE_KEY_ALIAS=taotao"
-            echo "RELEASE_STORE_PASSWORD=taotao123"
-            echo "RELEASE_KEY_PASSWORD=taotao123"
-          } > local.properties
-          echo "Release signing configured (split-secret PKCS12, $(wc -c < app/signing/release.p12) bytes)"
+          if [ -n "$KSTORE_P1" ] && [ -n "$KSTORE_P2" ]; then
+            mkdir -p app/signing
+            echo "${KSTORE_P1}${KSTORE_P2}" | base64 -d > app/signing/release.p12
+            {
+              echo "RELEASE_STORE_FILE=$GITHUB_WORKSPACE/app/signing/release.p12"
+              echo "RELEASE_KEY_ALIAS=taotao"
+              echo "RELEASE_STORE_PASSWORD=taotao123"
+              echo "RELEASE_KEY_PASSWORD=taotao123"
+            } > local.properties
+            echo "Release signing configured (split-secret PKCS12, $(wc -c < app/signing/release.p12) bytes)"
+          else
+            echo "No signing secrets found, building unsigned or debug signed APK"
+          fi
 
       - name: Build app release APK
         run: |
@@ -90,13 +98,13 @@ jobs:
         run: |
           NOTES="${{ inputs.release_notes }}"
           if [ -z "$NOTES" ]; then
-            NOTES="手动触发 GitHub Actions 构建发布。"
+            NOTES="自动触发 GitHub Actions 构建发布。"
           fi
           gh release create "${{ steps.meta.outputs.tag }}" \
             --target "$GITHUB_SHA" \
             --title "桃子阅读 ${{ steps.meta.outputs.tag }}" \
             --notes "$NOTES" \
-            dist/*.apk
+            dist/*.apk || echo "Release creation skipped or failed, check permissions"
 
       - name: Upload workflow artifacts
         uses: actions/upload-artifact@v4

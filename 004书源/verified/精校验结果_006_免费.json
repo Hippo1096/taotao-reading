@@ -1,0 +1,346 @@
+{
+  "timestamp": "2026-07-05 21:12:56",
+  "keyword": "诡秘之主",
+  "total": 57,
+  "passed": 3,
+  "partial": 1,
+  "failed": 53,
+  "passed_sources": [
+    {
+      "name": "行轻小说",
+      "grade": "?",
+      "base_url": "http://s.sfacg.com",
+      "search_samples": [
+        "我的SF",
+        "SF搜索",
+        "诡秘之主：提灯人",
+        "绑定国运扮演杀生丸组队白月魁",
+        "诡秘之主倒吊之人"
+      ],
+      "chapter_samples": [
+        "书库",
+        "热血",
+        "校园",
+        "推理",
+        "机战"
+      ],
+      "content_sample": "\n热门连载\n(更新稳定有特点)......\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n菠萝包轻小说\n\n\n收藏：334276\n人气：2.62亿\n评分：9.8\n\n\n\n\n\n闭嘴恶龙我不想再跟你带孩子了\n100 师徒相见\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n菠萝包轻小说\n\n\n收藏：292001\n人气：1.91亿\n评分：9.6\n\n\n\n\n\n凤傲天小说里的黄毛反派也想幸福\n77 我命由我不由天\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+      "name": "看书网",
+      "grade": "?",
+      "base_url": "https://www.kanshuw.com",
+      "search_samples": [
+        "[科幻]神秘复苏之猩红诡主",
+        "推一本书",
+        "[玄幻]诡秘之主",
+        "12月1日《诡秘之主》新番外发布",
+        "[网游]诡秘之主：祂"
+      ],
+      "chapter_samples": [
+        "看书网",
+        "玄幻",
+        "武侠",
+        "都市",
+        "历史"
+      ],
+      "content_sample": "热门小说推荐\n\n\n\n\n\n六零军嫂有空间\n作者：吾乃九千岁\n状态：连载\n更新时间：2025-12-02 20:21:19\n最新章节：第176章 结局\n\n\n\n\n\n\n你长得好像我爸爸\n作者：一字眉\n状态：完本\n更新时间：2025-11-11 04:47:20\n最新章节：第88章 竖弯钩完结\n\n\n\n\n\n\n恐怖时代，从成为守墓人开始\n作者：鬼神阎罗\n状态：连载\n更新时间：2026-07-05 01:45:5"
+    },
+    {
+      "name": "🎃书旗小说🎃#3",
+      "grade": "?",
+      "base_url": "https://www.shuqi.com#🎃",
+      "search_samples": [
+        "《书旗用户服务协议》",
+        "《隐私保护政策》",
+        "达人中心",
+        "漫剧合作",
+        "作家专区"
+      ],
+      "chapter_samples": [
+        "《书旗用户服务协议》",
+        "《隐私保护政策》",
+        "书库",
+        "达人中心",
+        "漫剧合作"
+      ],
+      "content_sample": "联系我们\n关于书旗\n投稿声明\n自审制度\n版权声明\n常见问题\n隐私协议\n用户协议\n\n\n\n\t\t\t\t友情链接：\n\t\t\t\t阿里巴巴集团\n淘宝网\n天猫\n聚划算\n全球速卖通\n阿里巴巴国际交易市场\n1688\n阿里妈妈\n飞猪\n阿里云\nALiOS\n高德\nUC\n友盟\n虾米\n大麦网\n优酷\n钉钉\n支付宝\n阿里影业\n阿里健康\n阿里体育\n网商银行\n\n\n网络文化经营许可证 粤网文[2023]1543-112号\n粤ICP备130"
+    }
+  ],
+  "partial_sources": [
+    {
+      "name": "🔰 宜搜",
+      "verdict": "partial",
+      "error": "",
+      "search_count": 8,
+      "chapter_count": 6
+    }
+  ],
+  "failed_sources": [
+    {
+      "name": "趣书网🎃",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "书海阁_shuhaige.net",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "玩文学",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "🎃哎呦文学🎃",
+      "error": "搜索HTTP 521",
+      "search_http": 521
+    },
+    {
+      "name": "书单推荐（优+）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "猫眼看书（优）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "情豆书坊",
+      "error": "搜索未命中 (count=2)",
+      "search_http": 200
+    },
+    {
+      "name": "最终小说网",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "新书迷楼",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "轮回小说网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "顶点小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "小说爱慕",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "五六中文",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "华人论坛（须登陆）存档",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "小米阅读（优+）",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "繁星小说",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "泡泡中文",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "无奈书库",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "果露小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "若夏网网",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "咚漫",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "溜达小说🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "格格党（阅读书屋）",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "饿狼小说",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "九五书包🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "请看下载（下载）",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "中华诗词（优）",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "👑 书趣阁",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "🎉天域小说网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "三五文学",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "📚 梦书中文",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎀果露小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "🎃书轩网🎃",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "PO全本🌹",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "香书小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "读万卷网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "海棠书屋🎃#3",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "玄幻阁吧",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "无极小说-电脑",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "民国奇人",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "⭐️沙滩",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "必去小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "笔尖中文",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "SoDu小说🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "五六书库",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "红袖添香 ",
+      "error": "搜索HTTP 504",
+      "search_http": 504
+    },
+    {
+      "name": "杰众文学",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "书坊文学网",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    },
+    {
+      "name": "️戊戟武侠",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎃溜达小说🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎃鬼吹灯🎃#3",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎃三九小说🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎃思路客🎃",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    }
+  ]
+}

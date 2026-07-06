@@ -1,0 +1,215 @@
+{
+  "timestamp": "2026-07-05 21:12:47",
+  "keyword": "诡秘之主",
+  "total": 34,
+  "passed": 2,
+  "partial": 1,
+  "failed": 31,
+  "passed_sources": [
+    {
+      "name": "红甘泉26",
+      "grade": "?",
+      "base_url": "https://www.hgq26.com",
+      "search_samples": [
+        "click here",
+        "Contact us",
+        "点击这里",
+        "Cashback"
+      ],
+      "chapter_samples": [
+        "高端域名",
+        "Whois查询",
+        "付款方式",
+        "价格标准",
+        "帮助中心"
+      ],
+      "content_sample": "还不是4.cn会员？那就免费注册吧！\n欢迎加入国内领先的独立第三方域名交易平台，您需要免费注册成为会员，才能享受4.CN提供的以下服务：\n\n\n\n购买域名\n超过2,000,000的优质域名,选择4.CN更省心。\n\n\n\n出售域名\n提供域名拍卖、在线议价、平价等多种渠道，4.CN更懂你。\n\n\n\n停放域名\n使用金名网自定义出售页，您的停放页面您做主。\n\n\n\n担保交易\n专业技术和服务保障买家资金和卖家域名安"
+    },
+    {
+      "name": "望书阁",
+      "grade": "?",
+      "base_url": "http://wap.wangshuge.la",
+      "search_samples": [
+        "诡秘之主",
+        "12月1日《诡秘之主》新番外发布",
+        "诡秘之主：祂",
+        "新书已发《诡秘之主：创生者》",
+        "诡秘之主：瑶光"
+      ],
+      "chapter_samples": [
+        "望书阁",
+        "分类",
+        "全本",
+        "书架",
+        "苟在初圣魔门当人材"
+      ],
+      "content_sample": "封面推荐\n\n\n\n苟在初圣魔门当人材\n作者：鹤守月满池\n    吕阳穿越修仙界，却成了魔门初圣宗的弟子。    幸得异宝【百世书】，死后可以重开一世，让一切从头再来，还能带回前世的宝物，修为，寿命，甚至觉醒特殊的天赋。    奈何次数有限，并非真的不死不灭。    眼见修仙界乱世将至，吕阳原本决定先在魔门苟住，一世世苦修，不成仙不出山，奈何魔门凶险异常，遍地都是人材。第一世，吕阳惨遭师姐暗算。第二世"
+    }
+  ],
+  "partial_sources": [
+    {
+      "name": "种田小说",
+      "verdict": "partial",
+      "error": "",
+      "search_count": 21,
+      "chapter_count": 54
+    }
+  ],
+  "failed_sources": [
+    {
+      "name": "鲸云轻小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "翻书阁",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "爱书网",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "蚂蚁阅读",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "闪文书库",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "玄幻阁",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "墨坛文学",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "御书网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "无限小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "ABC小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "下书久久",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "文桑小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "飞速中文",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "键盘小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "女生文学",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "若雨中文",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "超星读书",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "NB中文网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "爱阅小说",
+      "error": "搜索HTTP -2",
+      "search_http": -2
+    },
+    {
+      "name": "艾克小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "爱下书网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "书仓网",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "幻想姬",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "玄幻文学",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "中华典藏",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "大家读",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "山药小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "笔趣阁",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "69阅读.net",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "搜猫小说",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "天籁小说",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    }
+  ]
+}

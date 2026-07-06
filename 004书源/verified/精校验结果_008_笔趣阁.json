@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-07-05 21:12:46",
+  "keyword": "诡秘之主",
+  "total": 26,
+  "passed": 2,
+  "partial": 0,
+  "failed": 24,
+  "passed_sources": [
+    {
+      "name": "六九书吧",
+      "grade": "?",
+      "base_url": "https://69shu.net",
+      "search_samples": [
+        "69书吧",
+        "小说书库",
+        "全部小说",
+        "玄幻魔法",
+        "武侠修真"
+      ],
+      "chapter_samples": [
+        "69书吧",
+        "小说书库",
+        "全部小说",
+        "玄幻魔法",
+        "武侠修真"
+      ],
+      "content_sample": "69书吧\n\n\n若打开链接发现不是要看的书，请重新搜索该书即可阅读，感谢您的访问！\n                        \n\n\n\n\n\n\n\n\n\n\n\n\n\n药祖\n\n何无恨\n\n                                手握至尊药鼎，成就无上药祖。少年采药郎，偶然得到一尊神秘药鼎，从此打开修仙大门。药鼎之中，玄功秘法，药典丹方，天材地宝，仙田药园，应有尽有。成就最逆天的炼药祖师"
+    },
+    {
+      "name": "手机小说",
+      "grade": "?",
+      "base_url": "https://www.shoujix.com",
+      "search_samples": [
+        "手机小说",
+        "玄幻奇幻",
+        "武侠小说",
+        "仙侠小说",
+        "都市现实"
+      ],
+      "chapter_samples": [
+        "手机小说",
+        "玄幻奇幻",
+        "武侠小说",
+        "仙侠小说",
+        "都市现实"
+      ],
+      "content_sample": "玄幻奇幻\n\n\n宇宙职业选手 2036年，人类第一次登上了荧火星。2052年，第一届世界武道大赛举行，这也是全球最高格斗赛事，全球为之狂热。世界级顶尖选手“枪魔”许景明，于二十六岁那年，带着征战赛事留下的一身伤病，选择了退役……一个风起云涌的新时代，开始了！ ...\n\n\n\n重生飞扬年代/金蟾老祖\n修真聊天群/圣骑士的传说\n火影之幕后大BOSS系统/嘲讽鲸鱼的猫\n人在港综，你管这叫卧底？/不吃葱花\n从"
+    }
+  ],
+  "partial_sources": [],
+  "failed_sources": [
+    {
+      "name": "阅友小说",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "69书吧2",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "69书吧.com",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "顶点小说 ddxs",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "大文学无错小说网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "来看文学",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "八一中文",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "快书网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "艾途小说",
+      "error": "搜索HTTP 401",
+      "search_http": 401
+    },
+    {
+      "name": "笔趣网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "69书吧",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🎃笔趣阁🎃#71",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "🎃笔趣阁🎃#11",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": " 笔趣阁网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "笔趣阁🎃#53",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "Ｖ笔趣阁",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "武林中文网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "独步小说网",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "大熊猫文学网",
+      "error": "搜索HTTP -2",
+      "search_http": -2
+    },
+    {
+      "name": "就爱文学",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "得奇小说网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "笔趣阁🎃#2",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "思路客",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "笔趣中文",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    }
+  ]
+}

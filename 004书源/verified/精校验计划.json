@@ -1,0 +1,65 @@
+[
+  {
+    "batch_id": 1,
+    "group": "用户收藏",
+    "range": "1-200",
+    "count": 200,
+    "file": "未精校验候选_001_用户收藏.json"
+  },
+  {
+    "batch_id": 2,
+    "group": "用户收藏",
+    "range": "201-400",
+    "count": 200,
+    "file": "未精校验候选_002_用户收藏.json"
+  },
+  {
+    "batch_id": 3,
+    "group": "精选",
+    "range": "1-200",
+    "count": 200,
+    "file": "未精校验候选_003_精选.json"
+  },
+  {
+    "batch_id": 4,
+    "group": "精选",
+    "range": "201-232",
+    "count": 32,
+    "file": "未精校验候选_004_精选.json"
+  },
+  {
+    "batch_id": 5,
+    "group": "自制精选",
+    "range": "1-61",
+    "count": 61,
+    "file": "未精校验候选_005_自制精选.json"
+  },
+  {
+    "batch_id": 6,
+    "group": "免费",
+    "range": "1-57",
+    "count": 57,
+    "file": "未精校验候选_006_免费.json"
+  },
+  {
+    "batch_id": 7,
+    "group": "综合",
+    "range": "1-34",
+    "count": 34,
+    "file": "未精校验候选_007_综合.json"
+  },
+  {
+    "batch_id": 8,
+    "group": "笔趣阁",
+    "range": "1-26",
+    "count": 26,
+    "file": "未精校验候选_008_笔趣阁.json"
+  },
+  {
+    "batch_id": 9,
+    "group": "其他",
+    "range": "1-105",
+    "count": 105,
+    "file": "未精校验候选_009_其他.json"
+  }
+]

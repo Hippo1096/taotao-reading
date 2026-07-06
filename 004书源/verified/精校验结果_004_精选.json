@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-07-05 21:12:12",
+  "keyword": "诡秘之主",
+  "total": 32,
+  "passed": 0,
+  "partial": 0,
+  "failed": 32,
+  "passed_sources": [],
+  "partial_sources": [],
+  "failed_sources": [
+    {
+      "name": "2K小说网",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "旧时光文学",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "全本小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "全本小说[io]",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "🌺值得阅读",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "明月文学",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "沙滩小说网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "盗墓笔记",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "深夜看书",
+      "error": "搜索未命中 (count=1)",
+      "search_http": 200
+    },
+    {
+      "name": "○♛得间小说api  w列表",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "阅友小说②",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "免费小说阅读网",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "番薯小说[apig]",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "🔖17K小说③",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "御书房文学",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "追书小说",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "㊝豆瓣读书▪︎书评 #关耳",
+      "error": "",
+      "search_http": 200
+    },
+    {
+      "name": "绿竹小说",
+      "error": "搜索HTTP 404",
+      "search_http": 404
+    },
+    {
+      "name": "全本窝",
+      "error": "搜索HTTP 400",
+      "search_http": 400
+    },
+    {
+      "name": "123言情网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "亿软网",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "156中文网",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "🎉凌晨看书",
+      "error": "搜索HTTP -1",
+      "search_http": -1
+    },
+    {
+      "name": "雅谷中文www.eyagu.com",
+      "error": "搜索未命中 (count=0)",
+      "search_http": 200
+    },
+    {
+      "name": "笔下文学[x5]",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "快眼小说网[j]",
+      "error": "搜索HTTP 403",
+      "search_http": 403
+    },
+    {
+      "name": "番茄小说[api1]",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "悠久小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "黑炎小说",
+      "error": "搜索HTTP 502",
+      "search_http": 502
+    },
+    {
+      "name": "懒人小说",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    },
+    {
+      "name": "谷歌小说网",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    },
+    {
+      "name": "⚡得间小说3",
+      "error": "搜索HTTP 0",
+      "search_http": 0
+    }
+  ]
+}
