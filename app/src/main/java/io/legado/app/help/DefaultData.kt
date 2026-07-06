@@ -2,6 +2,7 @@ package io.legado.app.help
 
 import io.legado.app.constant.AppConst
 import io.legado.app.data.appDb
+import io.legado.app.data.entities.BookSource
 import io.legado.app.data.entities.DictRule
 import io.legado.app.data.entities.HttpTTS
 import io.legado.app.data.entities.KeyboardAssist
@@ -22,6 +23,13 @@ import java.io.File
 object DefaultData {
 
     fun upVersion() {
+        Coroutine.async {
+            if (appDb.bookSourceDao.allCount() == 0) {
+                importDefaultBookSources()
+            }
+        }.onError {
+            it.printOnDebug()
+        }
         if (LocalConfig.versionCode < AppConst.appInfo.versionCode) {
             Coroutine.async {
                 if (LocalConfig.needUpHttpTTS) {
@@ -110,6 +118,14 @@ object DefaultData {
         GSON.fromJsonArray<KeyboardAssist>(json).getOrThrow()
     }
 
+    val bookSources: List<BookSource> by lazy {
+        val json = String(
+            appCtx.assets.open("defaultData${File.separator}bookSources.json")
+                .readBytes()
+        )
+        GSON.fromJsonArray<BookSource>(json).getOrDefault(emptyList())
+    }
+
     fun importDefaultHttpTTS() {
         appDb.httpTTSDao.deleteDefault()
         appDb.httpTTSDao.insert(*httpTTS.toTypedArray())
@@ -127,6 +143,10 @@ object DefaultData {
 
     fun importDefaultDictRules() {
         appDb.dictRuleDao.insert(*dictRules.toTypedArray())
+    }
+
+    fun importDefaultBookSources() {
+        appDb.bookSourceDao.insert(*bookSources.toTypedArray())
     }
 
 }
